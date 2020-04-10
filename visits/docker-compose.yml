@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+ redis-server:
+  image: redis
+ node-app:
+  restart: unless-stopped
+  build: .
+  ports:
+   - '8080:8080'
+
