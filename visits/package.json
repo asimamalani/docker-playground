@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/asimamalani/docker-playground#readme",
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "redis": "*"
   }
 }
